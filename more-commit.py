@@ -7,4 +7,4 @@ for i in range(3):
     os.system('echo {} >> result.txt'.format(ds))
     time.sleep(2 * random.random())
     os.system('''git commit -a -m 'Modified at {}' '''.format(ds))
-    print("one second later")
+    print("one---------finish---------->>")
