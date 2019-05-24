@@ -1,3 +1,6 @@
 import os
-for i in range(12):
-    os.system('''echo 'a' >> result.txt''')
+import time
+for i in range(10):
+    os.system('''echo `date` >> result.txt''')
+    time.sleep(1)
+    print("one second later")
